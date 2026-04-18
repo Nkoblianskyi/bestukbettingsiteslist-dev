@@ -7,8 +7,7 @@ export default function PrivacyPolicyPage() {
       <PolicySection title="Who we are">
         <p>
           bestukbettingsiteslist.com is an independent comparison website that reviews and ranks UK-licensed
-          bookmakers. The site is operated by K.C. NTOMATA LIMITED, registered in Cyprus. We publish editorial
-          comparisons only — we do not accept wagers or hold player funds.
+          bookmakers. We publish editorial comparisons only — we do not accept wagers or hold player funds.
         </p>
       </PolicySection>
 
