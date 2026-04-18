@@ -11,7 +11,7 @@ const rawSites: Omit<BettingSite, "score">[] = [
     welcomeOffer: "£60 Free Bets",
     terms: "18+  | T&Cs apply | BeGambleAware.org",
     paymentMethods: ["Visa/Mastercard", "Bank Transfer"],
-    link: "https://www.spreadex.com/sports",
+    link: "https://www.spreadex.com/",
     reviews: 8509,
   },
   {
@@ -33,7 +33,7 @@ const rawSites: Omit<BettingSite, "score">[] = [
     welcomeOffer: "£50 Free Bets",
     terms: "18+  | T&Cs apply | BeGambleAware.org",
     paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
-    link: "https://www.betfred.com/sports",
+    link: "https://www.betfred.com/",
     reviews: 9312,
   },
   {
@@ -56,7 +56,7 @@ const rawSites: Omit<BettingSite, "score">[] = [
     welcomeOffer: "£30 Welcome Bonus",
     terms: "18+ | T&Cs apply | BeGambleAware.org",
     paymentMethods: ["Visa/Mastercard", "PayPal", "Apple Pay"],
-    link: "https://www.ladbrokes.com/en/sports",
+    link: "https://www.ladbrokes.com/",
     reviews: 9187,
   },
   {
@@ -67,7 +67,7 @@ const rawSites: Omit<BettingSite, "score">[] = [
     welcomeOffer: "£30 Free Bets",
     terms: "18+ | T&Cs apply | BeGambleAware.org",
     paymentMethods: ["Visa/Mastercard", "PayPal", "Apple Pay"],
-    link: "https://www.betvictor.com/en-gb/",
+    link: "https://www.betvictor.com/",
     reviews: 8841,
   },
 
