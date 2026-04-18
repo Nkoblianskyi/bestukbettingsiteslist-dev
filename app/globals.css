@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core palette */
+    --background: 220 20% 97%;
+    --foreground: 222 47% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 10%;
+
+    /* Navy primary */
+    --primary: 222 60% 18%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 20% 94%;
+    --secondary-foreground: 222 47% 15%;
+
+    --muted: 220 18% 93%;
+    --muted-foreground: 220 15% 48%;
+
+    /* Gold accent */
+    --accent: 43 96% 50%;
+    --accent-foreground: 222 60% 12%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 222 60% 18%;
+    --radius: 0.75rem;
+
+    /* Brand tokens */
+    --navy: 222 60% 18%;
+    --navy-deep: 222 65% 12%;
+    --navy-mid: 222 55% 24%;
+    --gold: 43 96% 50%;
+    --gold-dark: 38 90% 42%;
+    --gold-light: 48 100% 65%;
+    --surface: 220 20% 97%;
+    --surface-raised: 0 0% 100%;
+
+    /* Rank colors */
+    --rank-gold: 43 96% 50%;
+    --rank-silver: 220 12% 65%;
+    --rank-bronze: 25 80% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Rank number accent */
+.rank-badge-1 { color: hsl(var(--rank-gold)); }
+.rank-badge-2 { color: hsl(var(--rank-silver)); }
+.rank-badge-3 { color: hsl(var(--rank-bronze)); }
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: hsl(var(--surface)); }
+::-webkit-scrollbar-thumb { background: hsl(var(--navy) / 0.3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(var(--navy) / 0.5); }
