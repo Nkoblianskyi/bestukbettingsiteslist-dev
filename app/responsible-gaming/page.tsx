@@ -77,7 +77,7 @@ export default function ResponsibleGamingPage() {
           {[
             { icon: <Globe className="w-4 h-4 text-blue-600" />, name: "GambleAware", desc: "Leading UK safer-gambling charity — information, advice, and referrals to specialist treatment.", web: "www.gambleaware.org", phone: "0808 8020 133" },
             { icon: <Phone className="w-4 h-4 text-emerald-600" />, name: "GamCare", desc: "Free support, advice, and counselling for anyone affected by gambling harm.", web: "www.gamcare.org.uk", phone: "0808 8020 133" },
-            { icon: <ShieldCheck className="w-4 h-4 text-purple-600" />, name: "Gamblers Anonymous", desc: "Peer-support fellowship meetings across the UK for people with gambling problems.", web: "www.gamblersanonymous.org.uk", phone: "020 7384 3040" },
+            { icon: <ShieldCheck className="w-4 h-4 text-purple-600" />, name: "Gamblers Anonymous", desc: "Peer-support fellowship meetings across the UK for people with gambling problems.", web: "www.gamblersanonymous.org.uk", phone: "0330 094 0322" },
             { icon: <Clock className="w-4 h-4 text-orange-600" />, name: "Gordon Moody", desc: "Residential treatment programmes and online therapy for severe gambling addiction.", web: "www.gordonmoody.org.uk", phone: "01384 241 292" },
           ].map((org) => (
             <div key={org.name} className="rounded-xl border border-border bg-card p-4">
