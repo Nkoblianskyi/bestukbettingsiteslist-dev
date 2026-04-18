@@ -80,14 +80,6 @@ export function Footer() {
           </nav>
         </div>
 
-        {/* Publisher */}
-        <div className="mt-8 pt-6 border-t border-white/10">
-          <p className="text-[10px] font-bold uppercase tracking-widest text-white/30 mb-1">Publisher</p>
-          <p className="font-semibold text-white/70 text-sm">K.C. NTOMATA LIMITED</p>
-          <p className="text-[11px] text-white/35 mt-0.5">
-            Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, Nicosia 2019, Cyprus
-          </p>
-        </div>
 
         {/* Disclaimer */}
         <div className="mt-5 rounded-xl border border-white/10 bg-white/5 px-4 py-3.5">
