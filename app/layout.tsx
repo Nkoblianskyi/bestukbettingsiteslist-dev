@@ -19,7 +19,7 @@ const syne = Syne({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bestukbettingsiteslist.com"),
-  title: "Best UK Betting Sites List — Expert Rankings & Top Offers 2025",
+  title: "Best UK Betting Sites List — Expert Rankings & Top Offers 2026",
   description:
     "bestukbettingsiteslist.com compares the top UK-licensed bookmakers: welcome bonuses, odds quality, features and payment methods — all in one place.",
   openGraph: {
